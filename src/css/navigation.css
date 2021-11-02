@@ -1,0 +1,251 @@
+.tabs-style{
+    /* margin-left: 200px ; */
+    background-color:#0A0A0B;
+    color: white;
+}
+.element-style{
+    margin-left: 40px ;
+    text-decoration: none;
+}
+
+
+/* Body Styling */
+.body-heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    /* font-family: 'Bai Jamjuree'; */
+    line-height: 50px;
+    margin-top: 100px;
+}
+.body-heading-small{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    /* font-family: 'Bai Jamjuree'; */
+    line-height: 40px;
+}
+.body-para{
+    /* position: absolute; */
+    width: 532px;
+    height: 67.98px;
+    margin-left: 380px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    
+}
+
+
+
+/* ///////Strength Styling */
+
+.str-heading{
+    /* font-family: Bai Jamjuree; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 140%;
+    /* identical to box height, or 84px */
+    text-align: center;
+    color: white;
+}
+.card-media{
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.card-media-check{
+    /* width:150px; */
+    margin-top: 30px;
+}
+.str-card-text{
+    text-align: left;
+    color: white;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+
+/* ////////// Partner Styling */
+.partner-heading{
+    /* font-family: Bai Jamjuree; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 140%;
+    /* identical to box height, or 84px */
+    text-align: center;
+    color:white;
+}
+
+.partner-star-div{
+    position:relative;
+    width:400px;
+    height:70px
+}
+
+.partner-star{
+    position: absolute;
+    left: 140px;
+    top:-70px;
+    height: 220px;
+    width: 220px;
+    z-index: 1;
+    overflow: visible;
+}
+
+
+/* News Styling */
+.news-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 140%;
+    /* identical to box height, or 84px */
+    text-align: center;
+    color: white;
+    /* position: absolute; */
+    /* z-index: 2; */
+}
+
+.new-heading-effect{
+    position:relative;
+    width:100%;
+    height:50px;
+    z-index: -2;
+}
+.news-image{
+    position: absolute;
+    left: 230px;
+    top:-80px;
+    height: 300px;
+    width: 800px;
+    z-index: -2;
+    /* overflow: visible; */
+}
+.news-image1{
+    position: absolute;
+    left: 230px;
+    top:-250px;
+    height: 300px;
+    width: 800px;
+    z-index: -1;
+    /* overflow: visible; */
+}
+
+
+/* ///////// News Styling */
+
+
+
+.n1-styling{
+    margin-left: -15px;
+    text-align: left;
+}
+.n2-styling{
+    margin-left: -40px;
+    text-align: left;
+
+}
+.n3-styling{
+    margin-left: -60px;
+    text-align: left;
+
+}
+.text-styling{
+    background-color: #141415;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+/* ////// Subscription styling */
+.subs-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    color: white;
+    text-align: left;
+}
+.subs-para{
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 12px;
+    line-height: 24px;
+    color: #ABABB0;
+    text-align: left;
+    margin-top: -10px;
+}
+.box-styling{
+    margin-top: 25px;
+    width: 300px;
+    align-content: flex-end;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 110px;
+    background-color: #1C1C1E;;
+}
+.form-left-text{
+    color:#ABABB0;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color:#1C1C1E;
+    border-color: #1C1C1E;
+
+}
+.form-left-text:hover{
+
+    background-color:#1C1C1E;
+    border-color: none;
+    color:white;
+}
+.form-right-text{
+    color:white;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color:#1C1C1E;
+    border-color: #1C1C1E;
+
+}
+.termAndCondition{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.copyright-styling{
+    color:'#ABABB0';
+    font-size: 11px;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+.address-text{
+ font-size: 14px;
+ margin-left: 7px;
+ font-weight: lighter;
+
+}
+.twt-btn{
+    background-color: #1C1C1E;
+    border-radius: 9px;
+    border-color:#1C1C1E;
+    color:#36CD77;
+}
+.med-btn{
+    background-color: #1C1C1E;
+    border-radius: 9px;
+    margin-left: 20px;
+    border-color:#1C1C1E;
+    color:#36CD77;
+}
